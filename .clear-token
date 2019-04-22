@@ -1,0 +1,4 @@
+unset VAULT_TOKEN
+rm ~/.vault-token 2>/dev/null
+unset VAULT_TOKEN 
+export VAULT_ADDR='http://127.0.0.1:8200'
