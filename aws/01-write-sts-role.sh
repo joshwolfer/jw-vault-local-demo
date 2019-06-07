@@ -1,5 +1,6 @@
-vault write aws/roles/my-role \
-    credential_type=iam_user \
+vault write aws/roles/my-sts-role \
+    credential_type=federation_token \
+    ttl=60m \
     policy_document=-<<EOF
 {
   "Version": "2012-10-17",
