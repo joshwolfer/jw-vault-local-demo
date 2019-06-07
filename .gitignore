@@ -1,0 +1,14 @@
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+*token*
+*passw*
+.*-id
+
+.bak*
