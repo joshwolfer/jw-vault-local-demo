@@ -1,6 +1,6 @@
 vault write aws/roles/my-sts-role \
     credential_type=federation_token \
-    ttl=60m \
+    ttl=900s \
     policy_document=-<<EOF
 {
   "Version": "2012-10-17",

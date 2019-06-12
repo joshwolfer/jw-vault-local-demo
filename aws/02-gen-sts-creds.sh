@@ -14,8 +14,8 @@ token=`echo $json | jq -r .data.security_token`
 echo
 echo Paste this into your terminal to use:
 echo
+echo export HISTIGNORE=\"history*:export*\"
 echo export AWS_ACCESS_KEY_ID=${access_key}
 echo export AWS_SECRET_ACCESS_KEY=${secret_key}
-echo
 echo export AWS_SESSION_TOKEN=${token}
 echo
