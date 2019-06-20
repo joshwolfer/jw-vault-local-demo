@@ -17,3 +17,4 @@ echo export HISTIGNORE=\"history*:export*\"
 echo export AWS_ACCESS_KEY_ID=${access_key}
 echo export AWS_SECRET_ACCESS_KEY=${secret_key}
 echo
+
